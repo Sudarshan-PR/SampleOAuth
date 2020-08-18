@@ -3,5 +3,7 @@
 It is just me trying out OAuth for the first time.
 
 ### Todo
-* Everything basically.
+* Create landing page.
+* Login/Logout forms.
+* Sign-up forms.
 * To be hosted on Heroku
