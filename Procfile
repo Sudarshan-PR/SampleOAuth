@@ -1,1 +1,1 @@
-web1: gunicorn 
+web: gunicorn OAuthSample.wsgi
