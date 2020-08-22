@@ -3,4 +3,7 @@ from django.http import HttpResponse
 import os
 
 def home(request):
-    return HttpResponse(os.environ["SAMPLE_VAR"])
+    return render(request, 'home/index.html')
+
+def social(request):
+    return render(request, 'home/index.html')
