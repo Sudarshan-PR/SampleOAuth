@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <a href="{% url 'social:begin' 'google-oauth2'%}">Login with google </a>
+    <a href="{% url 'social:begin' 'google-oauth2' %}">Login with google </a>
     <br> <br> hello there, {{ user.username }}
     <br> <a href="{% url 'logout' %}">Logout</a>
 </body>
